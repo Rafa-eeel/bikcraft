@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+:root {
+  /* Variáveis de Cores Neutras */
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c9: #404040;
+  --c8: #595959;
+  --c7: #717171;
+  --c6: #9c9c9c;
+  --c5: #b2b2b2;
+  --c4: #cccccc;
+  --c3: #dedede;
+  --c2: #ededed;
+  --c1: #f7f7f7;
+  --w: #ffffff;
+
+  /* Variáveis de Cores */
+  --p7: #e59317;
+  --p6: #ffb60d;
+  --p5: #332200;
+  --p4: #664400;
+  --p3: #a66f00;
+  --p2: #e4a30b;
+  --p1: #ffbb00;
+
+  /* Gradientes */
+  --gradientPrimario: linear-gradient(var(--p1), var(--p2));
+  --gradientPrimarioHover: linear-gradient(var(--p6), var(--p7));
+
+  /* Variáveis de Padding */
+  --p-xsm: 0.25rem;
+  --p-sm: 0.5rem;
+  --p-md: 0.75rem;
+  --p-lg: 1rem;
+  --p-xl: 1.25rem;
+  --p-xxl: 2.5rem;
+
+  /* Variáveis de Margin */
+  --m-xsm: 0.25rem;
+  --m-sm: 0.5rem;
+  --m-md: 1rem;
+  --m-lg: 1.25rem;
+  --m-xl: 2rem;
+  --m-xxl: 2.5rem;
+
+  /* Variáveis de gap */
+  --gap-xsm: 0.25rem;
+  --gap-sm: 0.5rem;
+  --gap-md: 1rem;
+  --gap-lg: 1.25rem;
+  --gap-xl: 2rem;
+  --gap-xxl: 4rem;
+
+  /* Variáveis de corpo de texto */
+  --text-xsm: 0.75rem;
+  --text-sm: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5rem;
+
+  /* Variáveis titulos */
+  --h1: 4.5rem;
+  --h2: 4rem;
+  --h3: 3rem;
+  --h4: 2rem;
+  --h5: 1.75rem;
+}

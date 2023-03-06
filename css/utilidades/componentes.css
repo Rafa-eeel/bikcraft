@@ -1,0 +1,26 @@
+.botao {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--gradientPrimario);
+  color: var(--p5);
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: var(--m-xl);
+}
+.ibotao:hover {
+  background: var(--gradientPrimarioHover);
+}
+@media (max-width: 800px) {
+  .botao {
+    font-size: var(--text-sm);
+    padding: var(--p-sm) var(--p-lg);
+  }
+}
+
+@media (max-width: 600px) {
+  .botao {
+    font-size: var(--text-xsm);
+  }
+}
