@@ -1,0 +1,14 @@
+.texto-grande {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: var(--h1);
+  line-height: 1.125;
+}
+.texto-medio {
+}
+.texto-pequeno {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: var(--p-xl);
+  line-height: 1.5;
+}

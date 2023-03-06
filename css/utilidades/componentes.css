@@ -9,7 +9,7 @@
   border-radius: 4px;
   margin-bottom: var(--m-xl);
 }
-.ibotao:hover {
+.botao:hover {
   background: var(--gradientPrimarioHover);
 }
 @media (max-width: 800px) {
