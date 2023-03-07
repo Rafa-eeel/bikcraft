@@ -3,8 +3,7 @@
   padding: 1rem 2rem;
   background: var(--gradientPrimario);
   color: var(--p5);
-  font-family: "Poppins";
-  font-weight: 600;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
   text-transform: uppercase;
   border-radius: 4px;
   margin-bottom: var(--m-xl);
@@ -14,13 +13,13 @@
 }
 @media (max-width: 800px) {
   .botao {
-    font-size: var(--text-sm);
+    font-size: 1rem;
     padding: var(--p-sm) var(--p-lg);
   }
 }
 
 @media (max-width: 600px) {
   .botao {
-    font-size: var(--text-xsm);
+    font-size: 0.75rem;
   }
 }

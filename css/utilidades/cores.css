@@ -1,0 +1,64 @@
+/* Neutras */
+.cor-00 {
+  color: var(--w);
+}
+.cor-01 {
+  color: var(--c1);
+}
+.cor-02 {
+  color: var(--c2);
+}
+.cor-03 {
+  color: var(--c3);
+}
+.cor-04 {
+  color: var(--c4);
+}
+.cor-05 {
+  color: var(--c5);
+}
+.cor-06 {
+  color: var(--c6);
+}
+.cor-07 {
+  color: var(--c7);
+}
+.cor-08 {
+  color: var(--c8);
+}
+.cor-091 {
+  color: var(--c9);
+}
+.cor-10 {
+  color: var(--c10);
+}
+.cor-11 {
+  color: var(--c11);
+}
+.cor-12 {
+  color: var(--c12);
+}
+
+/* Cores */
+
+.cor-p1 {
+  color: var(--p1);
+}
+.cor-p2 {
+  color: var(--p2);
+}
+.cor-p3 {
+  color: var(--p3);
+}
+.cor-p4 {
+  color: var(--p4);
+}
+.cor-p5 {
+  color: var(--p5);
+}
+.cor-p6 {
+  color: var(--p6);
+}
+.cor-p7 {
+  color: var(--p7);
+}
