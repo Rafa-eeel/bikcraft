@@ -1,19 +1,17 @@
-/* Topo ---------------------------------------------------------------- */
 .header-bg {
   background-color: var(--c12);
   width: 100%;
 }
 .header {
-  box-sizing: border-box;
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap-md);
   justify-content: space-between;
   align-items: center;
-  padding: var(--p-xxl);
+  padding-top: var(--p-xxl);
+  padding-bottom: var(--p-xxl);
 }
+
 .header-menu {
   display: flex;
   flex-wrap: wrap;

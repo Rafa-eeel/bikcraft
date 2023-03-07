@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3000px;
+}
+
 ul {
   list-style: none;
 }
@@ -12,6 +17,9 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
 :root {
   /* Variáveis de Cores Neutras */
@@ -56,7 +64,7 @@ img {
   --m-md: 1rem;
   --m-lg: 1.25rem;
   --m-xl: 2rem;
-  --m-xxl: 2.5rem;
+  --m-xxl: 3rem;
 
   /* Variáveis de gap */
   --gap-xsm: 0.25rem;
