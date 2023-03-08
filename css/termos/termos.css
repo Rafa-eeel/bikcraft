@@ -1,0 +1,22 @@
+.termos {
+  padding-top: var(--p-xxxl);
+  padding-bottom: var(--p-xxxl);
+}
+.termos h2 {
+  font-weight: 600;
+  margin-bottom: var(--m-lg);
+}
+.termos p {
+  max-width: 75ch;
+  line-height: 1.5;
+  margin-bottom: var(--m-lg);
+}
+.termos p + h2 {
+  margin-top: var(--m-xl);
+}
+@media (max-width: 600px) {
+  .termos {
+    padding-top: var(--p-xxl);
+    padding-bottom: var(--p-xxl);
+  }
+}

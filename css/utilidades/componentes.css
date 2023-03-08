@@ -6,6 +6,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+/* Títulos internos */
+.titulo-bg {
+  background-color: var(--c11);
+  width: 100%;
+  padding-top: var(--p-xxl);
+  padding-bottom: var(--p-xxl);
+}
+.titulo p {
+  margin-bottom: 4px;
+}
+/* Botões */
+
 .botao {
   display: inline-block;
   padding: 1rem 2rem;
@@ -48,6 +60,10 @@
   color: var(--w);
 }
 @media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: var(--p-xl);
+    padding-bottom: var(--p-xl);
+  }
   .botao {
     font-size: 1rem;
     padding: var(--p-sm) var(--p-lg);
@@ -56,9 +72,13 @@
     margin-bottom: var(--m-xl);
   }
 }
-
 @media (max-width: 600px) {
   .botao {
     font-size: 0.75rem;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

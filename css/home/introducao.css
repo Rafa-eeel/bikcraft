@@ -14,10 +14,10 @@
   align-self: end;
   padding-bottom: 200px;
 }
-.font-1-xxl {
+.intro .font-1-xxl {
   margin-bottom: var(--m-xl);
 }
-.font-2-l {
+.intro .font-2-l {
   margin-bottom: var(--m-xl);
 }
 
