@@ -4,7 +4,6 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 4000px;
 }
 
 ul {
@@ -66,6 +65,7 @@ img[src$=".jpg"] {
   --m-lg: 1.25rem;
   --m-xl: 2rem;
   --m-xxl: 3rem;
+  --m-xxxl: 5rem;
 
   /* Variáveis de gap */
   --gap-xsm: 0.25rem;
