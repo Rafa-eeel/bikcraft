@@ -31,6 +31,9 @@
   .parceiros {
     padding-bottom: 60px;
   }
+  .parceiros li {
+    padding: var(--p-xl);
+  }
   .parceiros h2 {
     margin-bottom: var(--m-xl);
   }

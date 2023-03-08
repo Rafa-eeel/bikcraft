@@ -14,10 +14,20 @@
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   text-transform: uppercase;
   border-radius: 4px;
-  margin-bottom: var(--m-xl);
+  /* mantém o botão do tamanho do CONTEÚDO dele */
+  max-width: max-content;
 }
 .botao:hover {
   background: var(--gradientPrimarioHover);
+  transition: all 0.3s ease 0s;
+}
+.botao.secundario {
+  background: var(--c10);
+  color: var(--c2);
+}
+.botao.secundario:hover {
+  background: var(--c8);
+  transition: all 0.3s ease 0s;
 }
 .link {
   display: inline-block;

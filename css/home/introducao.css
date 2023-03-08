@@ -28,6 +28,9 @@
   object-position: top right;
   border-radius: 4px;
 }
+.intro-conteudo .botao {
+  margin-bottom: var(--m-xl);
+}
 /* MEDIA QUERIES ---------------------------------------------------------------- */
 
 @media (max-width: 800px) {

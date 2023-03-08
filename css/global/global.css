@@ -4,7 +4,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height: 3000px;
+  height: 4000px;
 }
 
 ul {
@@ -57,6 +57,7 @@ img[src$=".jpg"] {
   --p-lg: 1rem;
   --p-xl: 1.25rem;
   --p-xxl: 2.5rem;
+  --p-xxxl: 3.75rem;
 
   /* Variáveis de Margin */
   --m-xsm: 0.25rem;
