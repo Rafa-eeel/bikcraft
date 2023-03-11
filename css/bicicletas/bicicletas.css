@@ -1,0 +1,143 @@
+.bicicletas-bg:nth-child(odd) {
+  background: linear-gradient(to right, var(--w) 30%, var(--c11) 0);
+}
+
+.bicicletas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-xl);
+  padding-top: var(--p-xxxl);
+  padding-bottom: var(--p-xxxl);
+}
+.bicicletas-imagem {
+  /* Inserir tag de preço utilizando GRID */
+  display: grid;
+  /* position: relative; */
+}
+.bicicletas-imagem img {
+  /* Inserir tag de preço utilizando GRID */
+  grid-area: 1/1; /* diz que a imagem ocupa coluna 1 e linha 1*/
+}
+.bicicletas-imagem span {
+  /* Inserir tag de preço utilizando GRID */
+  grid-area: 1/1; /* diz que a tag ocupa coluna 1 e linha 1*/
+  place-self: start end;
+  margin-top: var(--m-lg);
+  /* Inserir a tag de preço utilizando POSITION:
+  position: absolute; right: 0; top: 20px; */
+  display: inline-block;
+  background-color: var(--c12);
+  padding: var(--p-sm) var(--p-md);
+  border-radius: 4px 0 0 4px;
+}
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+.bicicletas-conteudo h2 {
+  margin-bottom: var(--m-lg);
+}
+.bicicletas-conteudo h2,
+.bicicletas-conteudo p {
+  grid-column: 1/-1;
+}
+.bicicletas-conteudo p {
+  max-width: 50ch;
+  padding-bottom: var(--p-lg);
+}
+.bicicletas-conteudo h2::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 12px;
+  background-color: var(--p1);
+  margin-bottom: var(--m-sm);
+}
+.bicicletas-conteudo li {
+  display: flex;
+  align-items: center;
+}
+.bicicletas-conteudo li + li {
+  margin-top: var(--m-md);
+}
+.bicicletas-conteudo a {
+  place-self: end;
+}
+#bicicletas-vantagem-01::before {
+  content: "";
+  display: inline-block;
+  background: url("/img/icones/eletrica.svg") no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--m-sm);
+}
+#bicicletas-vantagem-02::before {
+  content: "";
+  display: inline-block;
+  background: url("/img/icones/rastreador.svg") no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--m-sm);
+}
+#bicicletas-vantagem-03::before {
+  content: "";
+  display: inline-block;
+  background: url("/img/icones/velocidade.svg") no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--m-sm);
+}
+#bicicletas-vantagem-04::before {
+  content: "";
+  display: inline-block;
+  background: url("/img/icones/carbono.svg") no-repeat center;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--m-sm);
+}
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: var(--m-sm);
+  background: url("../../img/icones/seta.svg");
+  transition: all 0.3s ease 0s;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+@media (max-width: 800px) {
+  .bicicletas-bg:nth-child(odd) {
+    background: var(--c11);
+  }
+  .bicicletas {
+    grid-template-columns: 1fr;
+    gap: var(--m-lg);
+    padding-top: var(--p-xxl);
+    padding-bottom: var(--p-xxl);
+  }
+  .bicicletas ul {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .bicicletas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas-conteudo a {
+    place-self: start;
+  }
+  .bicicletas ul {
+    margin-bottom: var(--m-lg);
+  }
+}

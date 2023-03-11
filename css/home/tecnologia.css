@@ -48,6 +48,7 @@
   height: 24px;
   margin-bottom: var(--m-sm);
 }
+
 @media (max-width: 800px) {
   .tecnologia {
     grid-template-columns: 1fr;

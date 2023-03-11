@@ -73,9 +73,6 @@
   }
 }
 @media (max-width: 600px) {
-  .botao {
-    font-size: 0.75rem;
-  }
   .titulo p {
     font-size: 1rem;
     text-transform: lowercase;
