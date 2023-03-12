@@ -1,0 +1,67 @@
+.vantagens-bg {
+  background-color: var(--c12);
+}
+.vantagens {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.vantagens h2 {
+  margin-bottom: var(--m-xl);
+}
+.vantagens h3 {
+  margin-bottom: var(--m-md);
+}
+.vantagens-itens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+  gap: var(--gap-lg) var(--gap-xxl);
+  padding-top: var(--m-lg);
+}
+.vantagens-itens li {
+  margin-bottom: var(--m-md);
+}
+.vantagem::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-bottom: var(--m-md);
+}
+.vantagem#reparo::before {
+  background: url("/img/icones/eletrica.svg") no-repeat center;
+  background-size: cover;
+}
+.vantagem#sustentavel::before {
+  background: url("/img/icones/sustentavel.svg") no-repeat center;
+  background-size: cover;
+}
+.vantagem#seguranca::before {
+  background: url("/img/icones/seguro.svg") no-repeat center;
+  background-size: cover;
+}
+.vantagem#carbono::before {
+  background: url("/img/icones/carbono.svg") no-repeat center;
+  background-size: cover;
+}
+.vantagem#rastreador::before {
+  background: url("/img/icones/rastreador.svg") no-repeat center;
+  background-size: cover;
+}
+.vantagem#rapidez::before {
+  background: url("/img/icones/velocidade.svg") no-repeat center;
+  background-size: cover;
+}
+@media (max-width: 1000px) {
+  .vantagens {
+    padding-top: var(--p-xxxl);
+    padding-bottom: var(--p-xxl);
+  }
+  .vantagens h2 {
+    margin-bottom: var(--m-lg);
+  }
+}
+@media (max-width: 600px) {
+  .vantagens h2 {
+    margin-bottom: var(--m-sm);
+  }
+}
