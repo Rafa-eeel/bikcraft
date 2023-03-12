@@ -1,8 +1,8 @@
 .container {
   box-sizing: border-box;
   max-width: 1200px;
-  padding-right: var(--p-xxl);
-  padding-left: var(--p-xxl);
+  padding-right: var(--p-xl);
+  padding-left: var(--p-xl);
   margin-left: auto;
   margin-right: auto;
 }

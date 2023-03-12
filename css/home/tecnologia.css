@@ -30,24 +30,6 @@
   margin-bottom: var(--m-md);
   width: max-content;
 }
-#vantagem-01::before {
-  content: "";
-  display: block;
-  background: url("/img/icones/eletrica.svg") no-repeat center;
-  background-size: cover;
-  width: 24px;
-  height: 24px;
-  margin-bottom: var(--m-sm);
-}
-#vantagem-02::before {
-  content: "";
-  display: block;
-  background: url("/img/icones/rastreador.svg") no-repeat center;
-  background-size: cover;
-  width: 24px;
-  height: 24px;
-  margin-bottom: var(--m-sm);
-}
 
 @media (max-width: 800px) {
   .tecnologia {
